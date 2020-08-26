@@ -3,7 +3,7 @@ let ul = document.querySelector('#client-list')
 
 for (let i of customers){
     let listElement = document.createElement('li')
-    let imageEl = document.createElement("i")
+    let imageEl = document.createElement("img")
     let emailEl = document.createElement("i")
     let genderEl = document.createElement("i")
     let locationEl = document.createElement("i")
@@ -13,7 +13,7 @@ for (let i of customers){
 
     console.log('i')
 
-    imageEl.src = i.picture.medium
+    imageEl.src = i.picture.large;
     console.log(imageEl)
     emailEl.innerText = i.email
     locationEl.innerText = i.location.street
