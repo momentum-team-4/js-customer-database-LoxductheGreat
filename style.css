@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    margin: 2rem auto;
+    max-width: 50rem;
+}
+
+.header{
+    font-weight: bold;
+    font-size: 35px;
+}
+
+li{
+    list-style-type: none;
+}
+
+#client-list{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+p{
+    text-align: center;
+    
+}
+
+a {
+    text-align: center;
+    padding-bottom: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+h2{
+    text-align: center;
+}
+
+img{
+    border-radius: 50%;
+    margin: 2rem;
+}
